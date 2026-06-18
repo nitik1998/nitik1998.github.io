@@ -483,6 +483,14 @@ ninja-keys {
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
+  // terminal/grep look
+  --ninja-font-family: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  --ninja-font-size: 15px;
+  --ninja-placeholder-color: var(--global-text-color-light);
+}
+
+ninja-keys::part(ninja-input) {
+  font-family: var(--ninja-font-family);
 }
 
 ninja-keys::part(ninja-input) {

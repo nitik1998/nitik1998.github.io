@@ -1,0 +1,44 @@
+# Affiliations strip on the homepage.
+# Drop a logo at assets/img/logos/<logo>.png and it replaces the text tag automatically.
+education:
+  - name: Johns Hopkins University
+    short: Johns Hopkins
+    role: MSE Robotics · Researcher, JH Medicine
+    url: https://www.jhu.edu/
+    logo: jhu
+  - name: IIT Kanpur
+    short: IIT Kanpur
+    role: B.Tech + M.Tech · Mech. & Aerospace
+    url: https://www.iitk.ac.in/
+    logo: iitk
+  - name: IIIT Hyderabad
+    short: IIIT Hyderabad
+    role: Visiting Research Intern · RRC
+    url: https://www.iiit.ac.in/
+    logo: iiith
+
+experience:
+  - name: Swiffylabs.ai
+    short: Swiffylabs
+    url: https://www.swiffylabs.com/
+    logo: swiffylabs
+  - name: Osfin.ai
+    short: Osfin.ai
+    url: https://www.osfin.ai/
+    logo: osfin
+  - name: Qure.ai
+    short: Qure.ai
+    url: https://www.qure.ai/
+    logo: qure
+  - name: MooVita
+    short: MooVita
+    url: https://www.moovita.com/
+    logo: moovita
+  - name: ITC Limited
+    short: ITC
+    url: https://www.itcportal.com/
+    logo: itc
+  - name: Hindustan Unilever
+    short: Unilever
+    url: https://www.unilever.com/
+    logo: unilever

@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and engineering projects across robot learning, perception, generative models, autonomy, and applied AI.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: ["Robot Learning", "Computer Vision & Perception", "Generative Models & NLP", "Autonomous Systems & SLAM", "Applied AI & Hardware"]
 horizontal: false
 ---
 

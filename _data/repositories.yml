@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nitik1998
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nitik1998/PAVE
+  - nitik1998/GENIE_DiffusionLearning
+  - nitik1998/extreme-illumination-image-restoration
+  - nitik1998/DispCaps
+  - nitik1998/GPU-Accelerated-SLAM-UGP-III
+  - nitik1998/Detecting-Humor-and-Offence
+  - IGVC-IITK/computer_vision
+  - IGVC-IITK/localization_mapping
+  - IGVC-IITK/planning_control

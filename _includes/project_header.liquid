@@ -1,0 +1,18 @@
+{% comment %} Project header: achievement badge + a row of quick-link icon buttons. Driven by front matter. {% endcomment %}
+{% if page.award %}
+  <div class="project-award"><i class="fa-solid fa-trophy"></i><span>{{ page.award }}</span></div>
+{% endif %}
+{% if page.tldr %}
+  <div class="project-tldr"><span class="tldr-label">TL;DR</span><span>{{ page.tldr }}</span></div>
+{% endif %}
+{% capture _acts %}{{ page.github }}{{ page.paper }}{{ page.report }}{{ page.slides }}{{ page.video }}{{ page.dataset }}{% endcapture %}
+{% if _acts != "" %}
+  <div class="project-actions">
+    {% if page.github %}<a class="proj-btn" href="{{ page.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+    {% if page.paper %}<a class="proj-btn" href="{{ page.paper }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> Paper</a>{% endif %}
+    {% if page.report %}<a class="proj-btn" href="{{ page.report | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Report</a>{% endif %}
+    {% if page.slides %}<a class="proj-btn" href="{{ page.slides | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-display"></i> Slides</a>{% endif %}
+    {% if page.video %}<a class="proj-btn" href="{{ page.video }}" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Video</a>{% endif %}
+    {% if page.dataset %}<a class="proj-btn" href="{{ page.dataset }}" target="_blank" rel="noopener"><i class="fa-solid fa-database"></i> Data</a>{% endif %}
+  </div>
+{% endif %}

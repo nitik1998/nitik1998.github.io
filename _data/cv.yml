@@ -1,189 +1,270 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Nitik Jain
+  label: Robotics Researcher
+  email: njain18@jh.edu
+  location: Baltimore, MD
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: MSE Robotics researcher at Johns Hopkins University working on robot learning, vision-language-action models, perception, and generative & medical AI.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: nitik1998
     - network: LinkedIn
-      username: example
+      username: nitik1998
+    - network: Google Scholar
+      username: tgvhuC4AAAAJ
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: Baltimore
+    region: Maryland
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Johns Hopkins University
+        location: Baltimore, MD, USA
+        url: https://www.jhu.edu/
+        area: Robotics (Perception & Cognitive Systems)
+        studyType: Master of Science in Engineering (MSE)
+        start_date: 2025
+        end_date: 2027 (Expected)
         highlights:
-          - Description 1.
-          - Description 2.
+          - Student Researcher, Johns Hopkins Medicine – Deep Learning & AI for MRI Enhancement and Segmentation
+          - "Coursework: Computer Vision, Deep Learning, Algorithms for Sensor-Based Robotics, Generative Models for Vision"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Indian Institute of Technology (IIT) Kanpur
+        location: Kanpur, India
+        url: https://www.iitk.ac.in/
+        area: Aerospace Engineering
+        studyType: Master of Technology (MTech)
+        start_date: 2021
+        end_date: 2022
+        score: "GPA: 9.4/10"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Academic Excellence Award 2021 – Best Academic Performance
+          - "Master's Thesis: Object Detection Underneath Sparse Occlusion of Forests"
+
+      - institution: Indian Institute of Technology (IIT) Kanpur
+        location: Kanpur, India
+        url: https://www.iitk.ac.in/
+        area: Mechanical Engineering (Minor - Machine Learning)
+        studyType: Bachelor of Technology (BTech)
+        start_date: 2017
+        end_date: 2021
+        score: "GPA: 7.4/10"
+        highlights:
+          - Minor in Machine Learning
+          - Lead AI Researcher, Team VISiON
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Swiffylabs.ai
+        position: Lead AI Engineer
+        location: Bangalore, India
+        start_date: 2024-06
+        end_date: 2025-06
+        summary: WestBridge Capital-backed B2B fintech redefining core banking through applied AI; led AI development from 0 to 1.
         highlights:
-          - Relativity
-          - Description 2.
+          - Designed and deployed an AI-driven core banking stack, replacing legacy systems with modular microservices
+          - Integrated LLM agents and fraud-detection models into transaction, onboarding, and customer-experience workflows
+          - Partnered with NBFC clients to launch a regulatory-ready, headless product suite, leading the first commercial rollout
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Osfin.ai
+        position: Founding AI Engineer
+        location: Bangalore, India
+        start_date: 2023-04
+        end_date: 2024-06
+        summary: Leading Product Vision for LLM powered AI strategy and product development for document analysis and summarization.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Founding AI Engineer; led cross-functional team collaborations to define & implement strategic product roadmaps
+          - Leading AI research team in Langchain based product development
+          - Designed OCR based Invoice extraction in Bahasa, resulting in 40% accuracy increase
+          - Developed LLM-based email parser, enhancing extraction accuracy amongst 30+ categories
+          - Designed ETL pipeline for Vector DB with clustering, reducing search space by 80%
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Qure.ai
+        position: AI Scientist, R&D Division
+        location: Bangalore, India
+        start_date: 2022-09
+        end_date: 2023-03
+        summary: Deep Learning focused 3D Computer Vision researcher at qCT Chest - Qure.ai's flagship AI based Lung Cancer Detection Suite.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed Deep Learning Algorithms for qCT-Chest product to detect early-stage cancer from lung CT scans
+          - Implemented 3D ViT in MONAI, achieving classification AUC of 88% and recall of 96% (9% improvement from SoTA)
+          - Augmented nodule segmentation by integrating CBAM and SE layers in Unet backbone, improving DICE coefficient by 14%
+          - Streamlined model training with end-to-end YAML based framework on Pytorch Lightning+Hydra
+
+      - company: MooVita Pte Ltd
+        position: AI Research Consultant
+        location: Singapore
+        start_date: 2022-09
+        end_date: 2023-02
+        summary: Perception Researcher in Computer Vision division for autonomous driving suite.
+        highlights:
+          - Leveraged 2D features to develop 3D sparse point cloud, localized on monocular odometry
+          - Engineered novel fallback system using classical optical flow for rapid vehicle turning estimation at 240 FPS on CPU
+          - Devised fallback object detection pipeline exploiting RAFT's dense OF
+
+      - company: Unilever Limited
+        position: ULIP Intern, Engineering Team
+        location: Mumbai, India
+        start_date: 2020-04
+        end_date: 2020-06
+        summary: Amongst 17 students pan-India selected for prestigious Unilever Leadership Internship Programme
+        highlights:
+          - Evaluated & recommended automation work-stream to reduce manpower dependency in warehouse operations
+          - Saved 8000+ manhours amounting to INR 1 Cr+ annually
+          - Awarded Pre-Placement Interview based on performance during the internship
+
+    Research:
+      - company: IGCL, IIT Kanpur
+        position: Sr. Student Associate Researcher
+        location: IIT Kanpur
+        start_date: 2021-06
+        end_date: 2022-08
+        summary: "Master's Thesis: Object Detection Underneath Sparse Occlusion of Forests (Advisor: Dr. Mangal Kothari)"
+        highlights:
+          - Developed sensor fusion model integrating RGB and thermal image modalities
+          - Implemented Airborne Optical Sectioning (AOS) techniques in synthetic-aperture imaging framework
+          - Achieved 70% enhancement in occlusion removal in simulation
+          - Employed transfer learning to fine-tune YOLOv5, resulting in 32% increase in detection accuracy
+
+      - company: Robotics Research Center, IIIT-Hyderabad
+        position: Visiting Research Intern
+        location: Hyderabad, India
+        start_date: 2019-05
+        end_date: 2019-07
+        summary: "Motion Planning for Outdoor Autonomous UAV (Advisor: Prof. K. Madhava Krishna)"
+        highlights:
+          - Analyzed VINS-Fusion multi-sensor state estimator for accurate self-localization
+          - Implemented VINS-Mono on ROS, fusing monocular camera and IMU inputs
+          - Integrated GPS RTK telemetry with VINS-Mono odometry
+          - Achieved realtime path planning using mav_voxblox_planning
+
+      - company: Team VISiON, IIT Kanpur
+        position: Lead AI Researcher
+        location: IIT Kanpur
+        start_date: 2018-08
+        end_date: 2020-05
+        summary: "Autonomous Ground Vehicle: Daksh II (Advisor: Dr. Mangal Kothari)"
+        highlights:
+          - Implemented Fast-SCNN-based semantic segmentation with MobileNet depth-wise separable convolutions
+          - Developed global_mapper ROS publisher fusing LiDAR+Camera for occupancy map
+          - Utilized costmap_2d with RRT algorithm for smooth cubic spline path planning
+          - Won 4 accolades at IGVC-2019, published at IEEE ICARSC 2022
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: J. N. Tata Scholar 2025
+        date: 2025
+        awarder: J. N. Tata Endowment
+        summary: One amongst ~100 scholars worldwide selected for postgraduate studies abroad
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: K. C. Mahindra Scholar 2025
+        date: 2025
+        awarder: K. C. Mahindra Education Trust
+        summary: One amongst ~90 scholars worldwide chosen for postgraduate education overseas
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: Lescoe Cup (2nd Worldwide)
+        date: 2019
+        awarder: 27th Intelligent Ground Vehicle Competition, Michigan, USA
+        summary: International robotics competition for autonomous ground vehicles
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: 3rd AutoNav Challenge
+        date: 2019
+        awarder: 27th IGVC
+        summary: Among 37 international institutes
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Academic Excellence Award
+        date: 2022
+        awarder: IIT Kanpur
+        summary: Exceptional Academic Performance in Dual Degree program
+
+      - title: SIIC Student Innovation Award
+        date: 2022
+        awarder: IIT Kanpur
+        summary: Development of the Saffron Stigma Separator
+
+      - title: AWS Machine Learning Scholarship
+        date: 2021
+        awarder: Amazon Web Services
+        summary: Selected for AWS MLE Foundations course
+
+      - title: JEE Advanced AIR 1116
+        date: 2017
+        awarder: Joint Entrance Examination
+        summary: Amongst 1.5 million candidates
+
+      - title: Silver Medal - Inter IIT Techmeet
+        date: 2019
+        awarder: TCTD Challenge, Tata Centre for Technology & Design
+        summary: 7th Inter IIT Techmeet
+
+      - title: NVIDIA Hardware Academic Grant
+        date: 2020
+        awarder: NVIDIA
+        summary: Awarded GPUs worth $3000
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine Learning / Deep Learning
+        level: Expert
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, MONAI, Hugging Face, LangChain, Computer Vision, NLP, 3D Vision"
+
+      - name: Robotics & Perception
+        level: Expert
+        icon: fa-solid fa-robot
+        keywords: "ROS, SLAM, Sensor Fusion, Object Detection, Semantic Segmentation, YOLO, Visual Odometry"
+
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, C++, CUDA, MATLAB, SQL, Git"
+
+      - name: Cloud & MLOps
+        level: Advanced
+        icon: fa-solid fa-cloud
+        keywords: "AWS, Docker, Kubernetes, Databricks, MLflow, Hydra, Pytorch Lightning"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: Professional proficiency
+      - name: Hindi
+        summary: Native speaker
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research Areas
+        icon: fa-solid fa-microscope
+        keywords: "Computer Vision, Deep Learning, Autonomous Systems, Healthcare AI, Robotics, Perception"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Open_Source:
+      - name: Google Summer of Code 2021
+        summary: "Development of Open Source Bio-robotics Framework with INCF. Developed sensor_fusion modules for BoB Robotics in C++14, simulated classical sensors in Gazebo, implemented UKF and EKF from source."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Integrated 4 classical and 2 bio-inspired sensors with visualization support
+          - Enabled multi-sensor data throughput of up to 60Hz
+        start_date: 2021-06
+        end_date: 2021-07
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Leadership:
+      - company: Team VISiON (ex-IGVC), IIT Kanpur
+        position: Team Leader
+        location: IIT Kanpur
+        start_date: 2019-06
+        end_date: 2021-05
+        highlights:
+          - Spearheaded a 3-tier team of 21 students, fostering R&D of AI & Robotics Research
+          - Orchestrated funding drive, procured $35,000 for autonomous EV development
+          - Led team at IGVC-2019 (Michigan, USA), won 4 International awards amongst 37+ teams
+          - Selected for NVIDIA Hardware Academic Grant Program 2020
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Entrepreneurship:
+      - company: Tralee.ai
+        position: Co-Founder
+        location: IIT Kanpur
+        start_date: 2020-06
+        end_date: 2021-02
+        summary: "Developed 'SkipQ: Your Checkout Companion' - AI-driven solution to automate checkouts at offline retail stores"
+        highlights:
+          - Secured Pre-Seed Ideation investment worth $12,000 from IITK-MIAP program
+          - National Finalist (Top 10 among 1600+ entries) in Prabandhan-MBA
+          - Asia Finalist at La Trobe Technology Infusion Grand Challenge
+          - Ranked in top 10% of Y-Combinator 2020 cohort pitches

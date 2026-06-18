@@ -4,8 +4,8 @@ document.addEventListener("readystatechange", () => {
     let isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
     let shortcutKeyElement = document.querySelector("#search-toggle .nav-link");
     if (shortcutKeyElement && isMac) {
-      // use the unicode for command key
-      shortcutKeyElement.innerHTML = '&#x2318; k <i class="fa-solid fa-magnifying-glass"></i>';
+      // use the unicode for command key (terminal/grep styled trigger)
+      shortcutKeyElement.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i>&nbsp;grep&nbsp;<kbd>&#x2318;K</kbd>';
     }
   }
 });

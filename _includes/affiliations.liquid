@@ -1,0 +1,27 @@
+{% comment %} Affiliations: two labeled columns (education | industry) centered around a vertical divider. {% endcomment %}
+<div class="affiliations">
+  <div class="aff-row">
+    {% assign groups = "education,experience" | split: "," %}
+    {% for group in groups %}
+      {% unless forloop.first %}<span class="aff-divider"></span>{% endunless %}
+      {% if group == "experience" %}{% assign grouptitle = "industry" %}{% else %}{% assign grouptitle = "education" %}{% endif %}
+      <div class="aff-col">
+        <span class="aff-group-label">{{ grouptitle }}</span>
+        <div class="aff-group">
+          {% for it in site.data.affiliations[group] %}
+            {% capture logo_path %}assets/img/logos/{{ it.logo }}.png{% endcapture %}
+            {% capture has_logo %}{% file_exists {{ logo_path }} %}{% endcapture %}
+            <a href="{{ it.url }}" target="_blank" rel="noopener" title="{{ it.name }}" class="aff-item">
+              {% if has_logo == "true" %}
+                <img src="{{ logo_path | relative_url }}" alt="{{ it.name }}" loading="lazy" />
+                <span class="aff-name">{{ it.short }}</span>
+              {% else %}
+                <span class="aff-tag">{{ it.short }}</span>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
