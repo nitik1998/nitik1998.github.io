@@ -218,14 +218,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Nitik_Jain_Resume.pdf", "_blank");
-        },
-      },{
-        id: 'social-cv_full',
-        title: 'Cv_full',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
+          window.open("/assets/pdf/Nitik_Jain_Resume_2page.pdf", "_blank");
         },
       },{
         id: 'social-email',
