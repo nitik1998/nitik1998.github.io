@@ -147,4 +147,67 @@
       </div>
     </progress>
   {% endif %}
+
+  <!-- Mobile bottom tab bar (phones only) -->
+  <nav class="mobile-tabbar" aria-label="Primary">
+    <a class="mtab {% if page.permalink == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">
+      <i class="fa-solid fa-house"></i><span>Home</span>
+    </a>
+    <a class="mtab {% if page.url contains '/projects' %}active{% endif %}" href="{{ '/projects/' | relative_url }}">
+      <i class="fa-solid fa-diagram-project"></i><span>Projects</span>
+    </a>
+    <a class="mtab {% if page.url contains '/publications' %}active{% endif %}" href="{{ '/publications/' | relative_url }}">
+      <i class="fa-solid fa-book"></i><span>Papers</span>
+    </a>
+    <a class="mtab {% if page.url contains '/cv' %}active{% endif %}" href="{{ '/cv/' | relative_url }}">
+      <i class="fa-solid fa-id-card"></i><span>CV</span>
+    </a>
+    <button class="mtab" type="button" id="more-toggle" aria-controls="mobile-sheet" aria-expanded="false">
+      <i class="fa-solid fa-ellipsis"></i><span>More</span>
+    </button>
+  </nav>
+
+  <div class="mobile-sheet-backdrop" id="mobile-sheet-backdrop"></div>
+  <div class="mobile-sheet" id="mobile-sheet" role="dialog" aria-modal="true" aria-label="More navigation">
+    <div class="msheet-grabber"></div>
+    <nav class="msheet-links" aria-label="All pages">
+      <a class="msheet-link {% if page.permalink == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">about</a>
+      {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+      {% for p in sorted_pages %}
+        {% if p.nav and p.autogen == null and p.permalink != '/' %}
+          <a class="msheet-link {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <div class="msheet-actions">
+      {% if site.search_enabled %}
+        <button type="button" class="msheet-action" onclick="closeMobileSheet(); openSearchModal();">
+          <i class="fa-solid fa-magnifying-glass"></i> Search
+        </button>
+      {% endif %}
+      {% if site.enable_darkmode %}
+        <button type="button" class="msheet-action" onclick="document.getElementById('light-toggle').click();">
+          <i class="fa-solid fa-circle-half-stroke"></i> Theme
+        </button>
+      {% endif %}
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var moreBtn = document.getElementById("more-toggle");
+      var sheet = document.getElementById("mobile-sheet");
+      var backdrop = document.getElementById("mobile-sheet-backdrop");
+      if (!moreBtn || !sheet || !backdrop) return;
+      function setOpen(o) {
+        sheet.classList.toggle("open", o);
+        backdrop.classList.toggle("open", o);
+        moreBtn.setAttribute("aria-expanded", o ? "true" : "false");
+      }
+      window.closeMobileSheet = function () { setOpen(false); };
+      moreBtn.addEventListener("click", function () { setOpen(!sheet.classList.contains("open")); });
+      backdrop.addEventListener("click", function () { setOpen(false); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") setOpen(false); });
+    })();
+  </script>
 </header>

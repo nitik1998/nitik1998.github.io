@@ -959,3 +959,150 @@ html[data-theme="dark"] .xp-tag.int {
   transform: none;
   color: inherit;
 }
+
+/* ============================================================
+   Mobile bottom tab bar (phones < 576px) — replaces hamburger
+   ============================================================ */
+.mobile-tabbar,
+.mobile-sheet,
+.mobile-sheet-backdrop {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  /* Hide the top navbar + hamburger entirely; bottom bar takes over */
+  #navbar {
+    display: none !important;
+  }
+  /* Keep page content clear of the fixed bottom bar */
+  body {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .mobile-tabbar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1040;
+    height: calc(60px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: var(--global-bg-color);
+    border-top: 1px solid var(--global-divider-color);
+    box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.12);
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .mtab {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--global-text-color);
+    opacity: 0.6;
+    font-size: 0.62rem;
+    font-family: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease, opacity 0.15s ease;
+    i {
+      font-size: 1.16rem;
+    }
+    &.active {
+      color: var(--global-theme-color);
+      opacity: 1;
+    }
+    &:active,
+    &:hover {
+      color: var(--global-theme-color);
+      opacity: 1;
+    }
+  }
+
+  .mobile-sheet-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1045;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    &.open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  }
+  .mobile-sheet {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1046;
+    background: var(--global-bg-color);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    box-shadow: 0 -6px 26px rgba(0, 0, 0, 0.28);
+    padding: 0.4rem 1.1rem calc(1.1rem + env(safe-area-inset-bottom, 0px));
+    transform: translateY(100%);
+    visibility: hidden;
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.28s ease;
+    &.open {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  .msheet-grabber {
+    width: 42px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--global-divider-color);
+    margin: 0.45rem auto 0.7rem;
+  }
+  .msheet-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .msheet-link {
+    padding: 0.72rem 0.3rem;
+    font-size: 1rem;
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    &.active {
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+    &:active {
+      color: var(--global-theme-color);
+    }
+  }
+  .msheet-actions {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.85rem;
+  }
+  .msheet-action {
+    flex: 1;
+    padding: 0.62rem;
+    background: none;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 9px;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    font-family: inherit;
+    i {
+      color: var(--global-theme-color);
+      margin-right: 0.3rem;
+    }
+  }
+}
