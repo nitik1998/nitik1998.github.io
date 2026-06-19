@@ -947,3 +947,15 @@ html[data-theme="dark"] .xp-tag.int {
   color: var(--global-text-color-light);
   line-height: 1.4;
 }
+
+/* ---- private repo badge (non-clickable) ---- */
+.proj-btn.proj-btn-disabled {
+  cursor: default;
+  opacity: 0.62;
+  background: transparent;
+  border-style: dashed;
+}
+.proj-btn.proj-btn-disabled:hover {
+  transform: none;
+  color: inherit;
+}

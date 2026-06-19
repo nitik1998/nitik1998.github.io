@@ -7,6 +7,7 @@ importance: 1
 category: Computer Vision & Perception
 featured: true
 github: https://github.com/jhu-cardiac-mri/cardiac-mri-coronary-localization
+private: true # repo is private — show a "Private repo" badge, not a clickable Code link
 tldr: "Deep learning to automatically localize coronary arteries in cardiac MRI — removing the slow, operator-dependent manual planning that coronary MR imaging needs today. Ongoing research at Johns Hopkins Medicine."
 ---
 
