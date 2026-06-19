@@ -104,6 +104,16 @@ cv:
           - Engineered novel fallback system using classical optical flow for rapid vehicle turning estimation at 240 FPS on CPU
           - Devised fallback object detection pipeline exploiting RAFT's dense OF
 
+      - company: ITC Limited
+        position: Management Trainee (Flagship Programme)
+        location: India
+        start_date: 2022-07
+        end_date: 2022-09
+        summary: Selected (1 of 14 from the top IITs in a cohort of ~100) for ITC's flagship management-leadership programme.
+        highlights:
+          - Rotated across supply-chain functions before taking charge as Manufacturing Manager at a biscuits factory
+          - Departed to pursue robotics and early-stage startups
+
       - company: Unilever Limited
         position: ULIP Intern, Engineering Team
         location: Mumbai, India

@@ -1,0 +1,33 @@
+{% comment %} Homepage pitch: 3 selected publications as a teaser → drive to the full /publications/ page {% endcomment %}
+{% assign pub = '/publications/' | relative_url %}
+{% assign img = '/assets/img/publication_preview/' | relative_url %}
+<p class="pub-lead">A <strong>patent</strong>, a <strong>peer-reviewed IEEE paper</strong>, and preprints spanning perception, robot learning, and applied AI. A few highlights:</p>
+<div class="pub-showcase">
+  <a class="pub-item" href="{{ pub }}#jain2026occlusion">
+    <div class="pub-thumb"><img src="{{ img }}forest_multimodal.jpg" alt="Multimodal forest-occlusion detection" loading="lazy" /></div>
+    <div class="pub-body">
+      <span class="pub-badge">Preprint · 2026</span>
+      <span class="pub-title">Multimodal Object Detection Under Sparse Forest-Canopy Occlusion</span>
+      <span class="pub-authors"><strong>N. Jain</strong>, M. Kothari</span>
+    </div>
+  </a>
+  <a class="pub-item" href="{{ pub }}#jain2023stigma">
+    <div class="pub-thumb"><img src="{{ img }}saffron.jpg" alt="Saffron stigma separation system" loading="lazy" /></div>
+    <div class="pub-body">
+      <span class="pub-badge">Patent · 2025</span>
+      <span class="pub-title">Computer-Implemented Stigma Separation System</span>
+      <span class="pub-authors"><strong>N. Jain</strong>, P. Yadav, R. Das, I. Saha · Indian Patent No. 564565</span>
+    </div>
+  </a>
+  <a class="pub-item" href="{{ pub }}#jain2022agv">
+    <div class="pub-thumb"><img src="{{ img }}agv_maze.jpg" alt="Low-cost autonomous ground vehicle" loading="lazy" /></div>
+    <div class="pub-body">
+      <span class="pub-badge">IEEE ICARSC · 2022</span>
+      <span class="pub-title">Development of a Low-Cost Autonomous Ground Vehicle</span>
+      <span class="pub-authors"><strong>N. Jain</strong>, A. A. Shah, H. Bollamreddi, M. Kothari</span>
+    </div>
+  </a>
+</div>
+<a class="pub-viewall" href="{{ pub }}">
+  <i class="fa-solid fa-book-open"></i><span>See all publications &amp; patents</span><i class="fa-solid fa-arrow-right"></i>
+</a>

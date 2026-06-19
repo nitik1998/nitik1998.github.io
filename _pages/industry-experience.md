@@ -66,6 +66,18 @@ nav_order: 4
     </div>
   </div>
 
+  <div class="xp-node">
+    <div class="xp-marker"><img src="{{ '/assets/img/logos/itc.png' | relative_url }}" alt="ITC Limited" /></div>
+    <div class="xp-content">
+      <div class="xp-head"><span class="xp-role">Management Trainee &rarr; Manufacturing Manager</span> · <a class="xp-org" href="https://www.itcportal.com/" target="_blank" rel="noopener">ITC Limited</a><span class="xp-date">Jul 2022 – Sept 2022</span></div>
+      <p class="xp-pitch">Selected for ITC's flagship management-leadership programme — 1 of 14 from the top IITs in a cohort of ~100.</p>
+      <ul>
+        <li>Rotated across supply-chain functions, then ran the floor as Manufacturing Manager at a biscuits factory.</li>
+        <li>Left to follow a stronger pull toward robotics and early-stage startups.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <h2 class="xp-section">$ ls ~/part-time</h2>
