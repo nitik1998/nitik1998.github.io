@@ -1,6 +1,6 @@
 ---
 layout: page
-title: industry experience
+title: work experience
 permalink: /industry-experience/
 description: ~3 years of full-time AI experience across healthcare, fintech, and autonomous driving, plus research roles during my studies.
 nav: true
@@ -26,6 +26,7 @@ nav_order: 4
       <ul>
         <li>Took AI from a blank page to a shipping product — an AI-native banking stack with LLM agents and fraud detection that replaced legacy systems.</li>
         <li>Worked with clients and compliance to launch something new in a heavily regulated industry.</li>
+        <li>Owned <strong>AI product management</strong> alongside the build — turning client banking workflows into a product roadmap and shipping against it.</li>
       </ul>
     </div>
   </div>
@@ -34,10 +35,11 @@ nav_order: 4
     <div class="xp-marker"><img src="{{ '/assets/img/logos/osfin.png' | relative_url }}" alt="Osfin.ai" /></div>
     <div class="xp-content">
       <div class="xp-head"><span class="xp-role">Founding AI Engineer</span> · <a class="xp-org" href="https://www.osfin.ai/" target="_blank" rel="noopener">Osfin.ai</a><span class="xp-date">Apr 2023 – Jun 2024</span></div>
-      <p class="xp-pitch">First engineer at a Sequoia-backed document-intelligence startup.</p>
+      <p class="xp-pitch">Founding engineer at a Sequoia-backed FinOps startup automating financial operations.</p>
       <ul>
-        <li>Turned messy real-world documents and emails into structured, reliable data with OCR and LLM pipelines.</li>
-        <li>Helped shape product direction and the AI roadmap as the team grew from idea to customers.</li>
+        <li>Launched <strong>financial-reconciliation</strong> products for high-stakes banking clients, built on LLM + OCR document-intelligence pipelines.</li>
+        <li>Turned messy real-world documents and emails into structured, reliable data at scale.</li>
+        <li>Worked at the <strong>intersection of product and engineering</strong> — owning product direction and the AI roadmap from idea to first customers.</li>
       </ul>
     </div>
   </div>
