@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-industry-experience",
-          title: "industry experience",
+        },{id: "nav-work-experience",
+          title: "work experience",
           description: "~3 years of full-time AI experience across healthcare, fintech, and autonomous driving, plus research roles during my studies.",
           section: "Navigation",
           handler: () => {
