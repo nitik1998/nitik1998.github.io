@@ -1256,3 +1256,16 @@ html[data-theme="dark"] .xp-tag.int {
   opacity: 0.85;
   margin: 0.2rem 0 0.9rem;
 }
+
+/* "CV" label beside the PDF icon in the profile social row */
+.profile-social .social-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.profile-social .social-cv span {
+  font-family: "SFMono-Regular", "Menlo", "Consolas", monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}

@@ -46,7 +46,7 @@ layout: default
               <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin }}" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
               <a href="https://x.com/{{ site.data.socials.x_username }}" title="X (Twitter)" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
               <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
-              <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV — 2-page (PDF)" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i></a>
+              <a class="social-cv" href="{{ site.data.socials.cv_pdf | relative_url }}" title="Curriculum Vitae (PDF)" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i><span>CV</span></a>
             </div>
           {% endif %}
           {% if page.profile.more_info %}
