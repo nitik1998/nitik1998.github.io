@@ -1,10 +1,9 @@
 cv:
   name: Nitik Jain
-  label: Robotics Researcher
-  email: njain18@jh.edu
+  label: Robotics MSE Student
+  email: njain18@jh.edu, nitikjain.jhu@gmail.com
   location: Baltimore, MD
   image: ""
-  summary: MSE Robotics researcher at Johns Hopkins University working on robot learning, vision-language-action models, perception, and generative & medical AI.
 
   social_networks:
     - network: GitHub
@@ -29,7 +28,8 @@ cv:
         start_date: 2025
         end_date: 2027 (Expected)
         highlights:
-          - Student Researcher, Johns Hopkins Medicine – Deep Learning & AI for MRI Enhancement and Segmentation
+          - Student Researcher, Johns Hopkins Medicine — deep learning for coronary-artery localization in cardiac MRI and MRI enhancement & segmentation
+          - "J. N. Tata Scholar & K. C. Mahindra Scholar 2025 — among ~100 scholars selected worldwide each"
           - "Coursework: Computer Vision, Deep Learning, Algorithms for Sensor-Based Robotics, Generative Models for Vision"
 
       - institution: Indian Institute of Technology (IIT) Kanpur
@@ -41,20 +41,20 @@ cv:
         end_date: 2022
         score: "GPA: 9.4/10"
         highlights:
-          - Academic Excellence Award 2021 – Best Academic Performance
-          - "Master's Thesis: Object Detection Underneath Sparse Occlusion of Forests"
+          - Academic Excellence Award 2021 — best academic performance across the dual-degree program
+          - "Master's Thesis: Object Detection Underneath Sparse Occlusion of Forests (Advisor: Dr. Mangal Kothari)"
 
       - institution: Indian Institute of Technology (IIT) Kanpur
         location: Kanpur, India
         url: https://www.iitk.ac.in/
-        area: Mechanical Engineering (Minor - Machine Learning)
+        area: Mechanical Engineering (Minor — Machine Learning)
         studyType: Bachelor of Technology (BTech)
         start_date: 2017
         end_date: 2021
         score: "GPA: 7.4/10"
         highlights:
           - Minor in Machine Learning
-          - Lead AI Researcher, Team VISiON
+          - Lead AI Researcher, Team VISiON (autonomous ground vehicles)
 
     Experience:
       - company: Swiffylabs.ai
@@ -62,47 +62,46 @@ cv:
         location: Bangalore, India
         start_date: 2024-06
         end_date: 2025-06
-        summary: WestBridge Capital-backed B2B fintech redefining core banking through applied AI; led AI development from 0 to 1.
+        summary: WestBridge Capital-backed B2B fintech; owned AI product + engineering for a 0→1 core-banking platform.
         highlights:
-          - Designed and deployed an AI-driven core banking stack, replacing legacy systems with modular microservices
-          - Integrated LLM agents and fraud-detection models into transaction, onboarding, and customer-experience workflows
-          - Partnered with NBFC clients to launch a regulatory-ready, headless product suite, leading the first commercial rollout
+          - Led AI product and engineering for a 0→1 core-banking platform, translating NBFC workflows into modular services
+          - Shipped LLM-agent and fraud-detection automation across onboarding, transaction, and customer-experience workflows
+          - Drove commercial go-live of a regulatory-ready banking suite across 3 international markets, launching in 50% less time than legacy industry standards
 
       - company: Osfin.ai
         position: Founding AI Engineer
         location: Bangalore, India
         start_date: 2023-04
         end_date: 2024-06
-        summary: Leading Product Vision for LLM powered AI strategy and product development for document analysis and summarization.
+        summary: Sequoia-backed fintech building AI-first financial automation; owned AI product + engineering for reconciliation workflows.
         highlights:
-          - Founding AI Engineer; led cross-functional team collaborations to define & implement strategic product roadmaps
-          - Leading AI research team in Langchain based product development
-          - Designed OCR based Invoice extraction in Bahasa, resulting in 40% accuracy increase
-          - Developed LLM-based email parser, enhancing extraction accuracy amongst 30+ categories
-          - Designed ETL pipeline for Vector DB with clustering, reducing search space by 80%
+          - Owned AI product + engineering go-live for a large private-bank reconciliation suite processing 4M+ transactions/day
+          - Enabled OCR for multilingual unstructured invoice text, improving extraction and matching accuracy by 40%
+          - Shipped exception-management workflows that cut reconciliation TAT by 4×, freed finance-ops teams from manual review, and prevented ₹400K+ in financial leakage at that client
+          - Built an LLM-based email parser extracting structured data across 30+ categories, and an ETL pipeline into a clustered Vector DB that cut retrieval search space by 80%
 
       - company: Qure.ai
         position: AI Scientist, R&D Division
         location: Bangalore, India
         start_date: 2022-09
         end_date: 2023-03
-        summary: Deep Learning focused 3D Computer Vision researcher at qCT Chest - Qure.ai's flagship AI based Lung Cancer Detection Suite.
+        summary: 3D medical-vision R&D for qCT-Chest — Qure.ai's flagship CT-based lung-health AI suite for early lung-cancer detection.
         highlights:
-          - Developed Deep Learning Algorithms for qCT-Chest product to detect early-stage cancer from lung CT scans
-          - Implemented 3D ViT in MONAI, achieving classification AUC of 88% and recall of 96% (9% improvement from SoTA)
-          - Augmented nodule segmentation by integrating CBAM and SE layers in Unet backbone, improving DICE coefficient by 14%
-          - Streamlined model training with end-to-end YAML based framework on Pytorch Lightning+Hydra
+          - Built 3D Vision Transformer models in MONAI for lung-nodule classification, achieving 88% AUC / 96% recall on malignancy prediction (+9% over SoTA)
+          - Improved nodule segmentation with attention-augmented U-Net models (CBAM + SE blocks), increasing the DICE coefficient by 14%
+          - Advanced qCT workflows for nodule detection, quantification, and follow-up, supporting deployments processing 1,200 CTs/week across 4 NHS Trusts
+          - Built an end-to-end YAML-driven training framework on PyTorch Lightning + Hydra with scalable Databricks pipelines
 
       - company: MooVita Pte Ltd
         position: AI Research Consultant
         location: Singapore
         start_date: 2022-09
         end_date: 2023-02
-        summary: Perception Researcher in Computer Vision division for autonomous driving suite.
+        summary: Perception researcher in the computer-vision division, focusing on explainability of visual perception for an autonomous-driving suite.
         highlights:
-          - Leveraged 2D features to develop 3D sparse point cloud, localized on monocular odometry
-          - Engineered novel fallback system using classical optical flow for rapid vehicle turning estimation at 240 FPS on CPU
-          - Devised fallback object detection pipeline exploiting RAFT's dense OF
+          - Reconstructed a 3D sparse point cloud from 2D features, localized on monocular visual odometry derived from lane detection
+          - Engineered a novel fallback system using classical optical flow for rapid vehicle-turn estimation at 240 FPS on CPU
+          - Devised a fallback object-detection pipeline exploiting RAFT's dense optical flow, leveraging velocity disparities across object flows
 
       - company: ITC Limited
         position: Management Trainee (Flagship Programme)
@@ -119,120 +118,246 @@ cv:
         location: Mumbai, India
         start_date: 2020-04
         end_date: 2020-06
-        summary: Amongst 17 students pan-India selected for prestigious Unilever Leadership Internship Programme
+        summary: Among 17 students selected pan-India for the prestigious Unilever Leadership Internship Programme.
         highlights:
-          - Evaluated & recommended automation work-stream to reduce manpower dependency in warehouse operations
-          - Saved 8000+ manhours amounting to INR 1 Cr+ annually
-          - Awarded Pre-Placement Interview based on performance during the internship
+          - Evaluated and recommended an automation work-stream to reduce manpower dependency in warehouse operations
+          - Saved 8,000+ manhours amounting to INR 1 Cr+ annually, collaborating with 5 divisions and 3 international firms
+          - Awarded a Pre-Placement Interview based on internship performance
 
     Research:
+      - company: Johns Hopkins Medicine
+        position: Student Researcher
+        location: Baltimore, MD
+        start_date: 2025-08
+        summary: "Deep learning for cardiac-MRI analysis (Advisor: Dr. Mike Schär)"
+        highlights:
+          - Developing deep models to localize coronary arteries in cardiac MRI, replacing slow, operator-dependent manual scan planning
+          - Building the data-curation and preprocessing pipeline and evaluating localization accuracy against expert annotations across patients
+
       - company: IGCL, IIT Kanpur
-        position: Sr. Student Associate Researcher
-        location: IIT Kanpur
+        position: Sr. Student Researcher (M.Tech Thesis)
+        location: Kanpur, India
         start_date: 2021-06
         end_date: 2022-08
-        summary: "Master's Thesis: Object Detection Underneath Sparse Occlusion of Forests (Advisor: Dr. Mangal Kothari)"
+        summary: "Object Detection Underneath Sparse Occlusion of Forests — enhancing human detection in forests with autonomous aerial vehicles (Advisor: Dr. Mangal Kothari)"
         highlights:
-          - Developed sensor fusion model integrating RGB and thermal image modalities
-          - Implemented Airborne Optical Sectioning (AOS) techniques in synthetic-aperture imaging framework
-          - Achieved 70% enhancement in occlusion removal in simulation
-          - Employed transfer learning to fine-tune YOLOv5, resulting in 32% increase in detection accuracy
+          - Developed a sensor-fusion model integrating RGB and thermal modalities into integral images that reveal concealed targets
+          - Applied Airborne Optical Sectioning (AOS) in a synthetic-aperture imaging framework, achieving ~70% occlusion removal in simulation
+          - Fine-tuned YOLOv5 via transfer learning on the fused imagery, raising detection accuracy by 32% over the base model
 
-      - company: Robotics Research Center, IIIT-Hyderabad
+      - company: IGCL, IIT Kanpur
+        position: Undergraduate Researcher
+        location: Kanpur, India
+        start_date: 2020-09
+        end_date: 2021-05
+        summary: "Onboard 3D Detection and Tracking — a lightweight stereo-camera perception pipeline (Advisor: Dr. Mangal Kothari)"
+        highlights:
+          - Engineered a real-time YOLOv3 detection-and-tracking pipeline optimized for speed and low resource usage on edge GPU
+          - Achieved 77% @ 0.5 IoU on a 20 FPS live feed, with low-latency tracking within ~20% localization error up to 10 m
+
+      - company: Robotics Research Center, IIIT Hyderabad
         position: Visiting Research Intern
         location: Hyderabad, India
         start_date: 2019-05
         end_date: 2019-07
-        summary: "Motion Planning for Outdoor Autonomous UAV (Advisor: Prof. K. Madhava Krishna)"
+        summary: "Motion Planning for Outdoor Autonomous UAVs (Advisor: Prof. K. Madhava Krishna)"
         highlights:
-          - Analyzed VINS-Fusion multi-sensor state estimator for accurate self-localization
-          - Implemented VINS-Mono on ROS, fusing monocular camera and IMU inputs
-          - Integrated GPS RTK telemetry with VINS-Mono odometry
-          - Achieved realtime path planning using mav_voxblox_planning
+          - Implemented VINS-Mono on ROS, fusing a hardware-synced monocular camera, IMU, and GPS-RTK telemetry for robust state estimation
+          - Built a voxel-based 3D mapper from RealSense point clouds, enabling real-time path planning via mav_voxblox_planning
 
       - company: Team VISiON, IIT Kanpur
         position: Lead AI Researcher
-        location: IIT Kanpur
+        location: Kanpur, India
         start_date: 2018-08
         end_date: 2020-05
-        summary: "Autonomous Ground Vehicle: Daksh II (Advisor: Dr. Mangal Kothari)"
+        summary: "Autonomous Ground Vehicle: Daksh II — outdoor navigation with obstacle avoidance (Advisor: Dr. Mangal Kothari)"
         highlights:
-          - Implemented Fast-SCNN-based semantic segmentation with MobileNet depth-wise separable convolutions
-          - Developed global_mapper ROS publisher fusing LiDAR+Camera for occupancy map
-          - Utilized costmap_2d with RRT algorithm for smooth cubic spline path planning
-          - Won 4 accolades at IGVC-2019, published at IEEE ICARSC 2022
+          - Implemented low-latency Fast-SCNN semantic segmentation (MobileNet depth-wise separable convolutions) for lane detection
+          - Built a global_mapper ROS publisher fusing LiDAR + camera into an occupancy map, with costmap_2d + RRT for cubic-spline path planning
+          - Won 4 international accolades at IGVC 2019; work published at IEEE ICARSC 2022
+
+    Projects:
+      - name: PAVE — Probing Affordance in Vision-Language-Action Encoders
+        summary: Do robot-policy (VLA) models keep the affordance signal of their foundation vision encoders? (JHU graduate research, 2026)
+        start_date: 2026
+        highlights:
+          - A frozen DINOv2-large linear probe reaches 0.776 mIoU on UMD Part-Affordance — +10.6 pp over a CVPR'26 dense decoder, with no decoder, fine-tuning, or augmentation
+          - Showed end-to-end VLA fine-tuning (π0, π0.5, OpenVLA) degrades affordances class-asymmetrically (cut −27 pp vs. contain −1 pp), generalizing across two VLA families
+          - A 297K-param MLP adapter recovers cut IoU 0.181→0.405 (82% of the gap); per-class feature drift predicts the loss (ρ = 0.90)
+
+      - name: GENIE — Latent Structure with Diffusion Models
+        summary: Generative modeling of quark/gluon-jet calorimeter images (GSoC 2026 evaluation, ML4SCI)
+        start_date: 2026
+        highlights:
+          - Built a VAE → latent-DDPM pipeline to learn and generate jet images across a 139K-sample calorimeter dataset
+          - VAE reconstruction 37.93 dB / 0.967 SSIM; GraphSAGE jet classification ROC-AUC 0.774; latent DDPM generation at 30.32 dB
+
+      - name: Extreme-Illumination Image Restoration
+        summary: Low-light and multi-exposure RGB enhancement with a lightweight, SID-inspired U-Net (JHU Computer Vision, 2025)
+        start_date: 2025
+        highlights:
+          - Designed a lightweight U-Net trained end-to-end on raw sensor data for low-light / multi-exposure enhancement
+          - Reached 18.44 dB PSNR / 0.782 SSIM — +6.95 dB over Zero-DCE++ — at a fraction of the parameters
+
+      - name: COVID Information Retrieval
+        summary: "Benchmarking IR frameworks for ranking CORD-19 research documents (Mentor: Prof. Arnab Bhattacharya, IIT Kanpur)"
+        start_date: 2022
+        highlights:
+          - Used BM25 as a baseline and implemented Contriever and BERT embeddings, benchmarking against the TREC-COVID IR Challenge's labeled data
+          - Achieved a peak MAP score of 0.72; work culminated in research archived at Europe PMC
+
+      - name: "SemEval-2021: Detecting & Rating Humour and Offence"
+        summary: "Sentiment models classifying short text as humorous, non-humorous, or offensive (Mentor: Prof. Piyush Rai, IIT Kanpur)"
+        start_date: 2020
+        highlights:
+          - Evaluated classical ML (SVM, Decision Trees) and neural models (1-D CNN, Bi-GRU, Bi-LSTM) against transformers (BERT, RoBERTa, XLNet)
+          - Optimized BERT-large to 93% accuracy and built a BERT+MLP humour-rating head with a best RMSE of 0.446
+
+      - name: Parallelization of Localization & Planning Algorithms
+        summary: "GPU-accelerated Particle-Filter SLAM on 2D LiDAR data (Mentor: Dr. Mangal Kothari, IIT Kanpur)"
+        start_date: 2019
+        highlights:
+          - Implemented Particle-Filter SLAM and parallelized ~87% of pipeline steps on NVIDIA CUDA
+          - Achieved linear GPU scaling against exponential CPU time growth with increasing particle count
+
+      - name: Industrial Saffron Stigma Separator
+        summary: "Assembly-line system to separate stigmas from saffron flowers, reducing agricultural drudgery (7th Inter-IIT Tech Meet)"
+        start_date: 2018
+        highlights:
+          - Designed and prototyped an assembly line projecting a 300% profit increase; earned a Silver medal among 17 IITs
+          - Idea patented and now being commercialized in collaboration with the University of Kashmir
+
+      - name: Automatic Toilet-Cleaner Robot
+        summary: "Autonomous trash-collection and stain-cleaning robot for constrained spaces (6th Inter-IIT Tech Meet)"
+        start_date: 2018
+        highlights:
+          - Built an image-processing pipeline for autonomous navigation and cleaning in lavatories
+          - Won a Bronze medal among 21 participating IITs
 
     Awards:
       - title: J. N. Tata Scholar 2025
         date: 2025
         awarder: J. N. Tata Endowment
-        summary: One amongst ~100 scholars worldwide selected for postgraduate studies abroad
+        summary: One among ~100 scholars worldwide selected for postgraduate studies abroad
 
       - title: K. C. Mahindra Scholar 2025
         date: 2025
         awarder: K. C. Mahindra Education Trust
-        summary: One amongst ~90 scholars worldwide chosen for postgraduate education overseas
+        summary: One among ~90 scholars worldwide chosen for postgraduate education overseas
 
       - title: Lescoe Cup (2nd Worldwide)
         date: 2019
         awarder: 27th Intelligent Ground Vehicle Competition, Michigan, USA
         summary: International robotics competition for autonomous ground vehicles
 
-      - title: 3rd AutoNav Challenge
+      - title: 3rd, AutoNav Challenge
         date: 2019
-        awarder: 27th IGVC
+        awarder: 27th IGVC, Michigan, USA
         summary: Among 37 international institutes
 
       - title: Academic Excellence Award
         date: 2022
         awarder: IIT Kanpur
-        summary: Exceptional Academic Performance in Dual Degree program
+        summary: Exceptional academic performance in the dual-degree program
 
       - title: SIIC Student Innovation Award
         date: 2022
         awarder: IIT Kanpur
-        summary: Development of the Saffron Stigma Separator
+        summary: For the development of the Saffron Stigma Separator
 
       - title: AWS Machine Learning Scholarship
         date: 2021
         awarder: Amazon Web Services
-        summary: Selected for AWS MLE Foundations course
+        summary: Selected for the AWS MLE Foundations course
 
-      - title: JEE Advanced AIR 1116
-        date: 2017
-        awarder: Joint Entrance Examination
-        summary: Amongst 1.5 million candidates
-
-      - title: Silver Medal - Inter IIT Techmeet
-        date: 2019
-        awarder: TCTD Challenge, Tata Centre for Technology & Design
-        summary: 7th Inter IIT Techmeet
-
-      - title: NVIDIA Hardware Academic Grant
+      - title: NVIDIA Academic Hardware Grant
         date: 2020
         awarder: NVIDIA
-        summary: Awarded GPUs worth $3000
+        summary: Awarded GPUs worth $3,000 for Team VISiON's autonomous EV
+
+      - title: Silver Medal — 7th Inter-IIT Tech Meet
+        date: 2019
+        awarder: TCTD Challenge, Tata Centre for Technology & Design
+        summary: For the Saffron Stigma Separator
+
+      - title: Bronze Medal — 6th Inter-IIT Tech Meet
+        date: 2018
+        awarder: ATC Challenge, Tata Consultancy Services
+        summary: For the Automatic Toilet-Cleaner Robot
+
+      - title: JEE Advanced — All-India Rank 1116
+        date: 2017
+        awarder: Joint Entrance Examination
+        summary: Among 1.5 million candidates
+
+    Leadership:
+      - company: Team VISiON (ex-IGVC), IIT Kanpur
+        position: Team Leader
+        location: Kanpur, India
+        start_date: 2019-06
+        end_date: 2021-05
+        highlights:
+          - Spearheaded a 3-tier team of 21 students, fostering R&D in AI & Robotics
+          - Orchestrated a funding drive, procuring $35,000 for a low-cost autonomous EV
+          - Led the team at IGVC 2019 (Michigan, USA), winning 4 international awards among 37+ teams
+          - Selected for the NVIDIA Hardware Academic Grant Program 2020 (GPUs worth $3,000)
+
+    Entrepreneurship:
+      - company: Tralee.ai
+        position: Co-Founder
+        location: IIT Kanpur
+        start_date: 2020-06
+        end_date: 2021-02
+        summary: "SkipQ: Your Checkout Companion — an AI-driven solution to automate checkouts at offline retail stores"
+        highlights:
+          - Crafted product vision through empathy studies across 15 hypermarkets and 100+ users; led MVP development and modular low-cost cart attachments
+          - Secured $12,000 pre-seed ideation investment from the IITK-MIAP program
+          - National Finalist (Top 10 of 1,600+) at Prabandhan; Asia Finalist at the La Trobe Technology Infusion Grand Challenge; top 10% of the Y-Combinator 2020 cohort
+
+    Open Source:
+      - name: Google Summer of Code 2021
+        summary: "Development of an open-source bio-robotics framework with INCF (BoB Robotics)"
+        highlights:
+          - Built sensor_fusion modules in C++14, simulating classical sensors in Gazebo and implementing UKF and EKF from source
+          - Integrated 4 classical and 2 bio-inspired sensors with visualization, enabling multi-sensor data throughput up to 60 Hz
+        start_date: 2021-06
+        end_date: 2021-07
+
+    Academic Service:
+      - name: Teaching Assistant
+        summary: "Innovative Data Strategy for Global Leaders (JHU, 2026) & AE640A — Autonomous Systems (graduate course, IIT Kanpur, 2022)"
+      - name: Invited Talk
+        summary: "ML & Computer Vision and deploying CNNs in PyTorch — QIP Short-Term Course on Decision & Control, IIT Kanpur (2021)"
+      - name: Course Paper Presentation
+        summary: "Cross-lingual Cross-modal Pretraining for Multimodal Retrieval — CS657 Information Retrieval, IIT Kanpur (2022)"
+      - name: Paper Reviewer
+        summary: "Seventh Indian Control Conference (ICC-7), 2021"
 
     Skills:
       - name: Machine Learning / Deep Learning
         level: Expert
         icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, MONAI, Hugging Face, LangChain, Computer Vision, NLP, 3D Vision"
+        keywords: "PyTorch, PyTorch Lightning + Hydra, MONAI, Hugging Face, LangChain, Scikit-learn, OpenCV, NumPy"
 
       - name: Robotics & Perception
         level: Expert
         icon: fa-solid fa-robot
-        keywords: "ROS, SLAM, Sensor Fusion, Object Detection, Semantic Segmentation, YOLO, Visual Odometry"
+        keywords: "ROS + Gazebo, SLAM, Sensor Fusion, Visual Odometry, Object Detection, Semantic Segmentation, 3D Vision, YOLO"
+
+      - name: AI Methods & Domains
+        level: Expert
+        icon: fa-solid fa-diagram-project
+        keywords: "Vision-Language-Action (VLA) Models, Vision Transformers, Diffusion Models, LLMs, Medical Imaging, Autonomous Systems"
 
       - name: Programming
         level: Expert
         icon: fa-solid fa-code
-        keywords: "Python, C++, CUDA, MATLAB, SQL, Git"
+        keywords: "Python, C/C++, CUDA, MATLAB, SQL, Bash, R, Git"
 
       - name: Cloud & MLOps
         level: Advanced
         icon: fa-solid fa-cloud
-        keywords: "AWS, Docker, Kubernetes, Databricks, MLflow, Hydra, Pytorch Lightning"
+        keywords: "AWS, Docker, Databricks, Grafana, CloudWatch, MLflow, Hydra"
 
     Languages:
       - name: English
@@ -243,38 +368,4 @@ cv:
     Interests:
       - name: Research Areas
         icon: fa-solid fa-microscope
-        keywords: "Computer Vision, Deep Learning, Autonomous Systems, Healthcare AI, Robotics, Perception"
-
-    Open_Source:
-      - name: Google Summer of Code 2021
-        summary: "Development of Open Source Bio-robotics Framework with INCF. Developed sensor_fusion modules for BoB Robotics in C++14, simulated classical sensors in Gazebo, implemented UKF and EKF from source."
-        highlights:
-          - Integrated 4 classical and 2 bio-inspired sensors with visualization support
-          - Enabled multi-sensor data throughput of up to 60Hz
-        start_date: 2021-06
-        end_date: 2021-07
-
-    Leadership:
-      - company: Team VISiON (ex-IGVC), IIT Kanpur
-        position: Team Leader
-        location: IIT Kanpur
-        start_date: 2019-06
-        end_date: 2021-05
-        highlights:
-          - Spearheaded a 3-tier team of 21 students, fostering R&D of AI & Robotics Research
-          - Orchestrated funding drive, procured $35,000 for autonomous EV development
-          - Led team at IGVC-2019 (Michigan, USA), won 4 International awards amongst 37+ teams
-          - Selected for NVIDIA Hardware Academic Grant Program 2020
-
-    Entrepreneurship:
-      - company: Tralee.ai
-        position: Co-Founder
-        location: IIT Kanpur
-        start_date: 2020-06
-        end_date: 2021-02
-        summary: "Developed 'SkipQ: Your Checkout Companion' - AI-driven solution to automate checkouts at offline retail stores"
-        highlights:
-          - Secured Pre-Seed Ideation investment worth $12,000 from IITK-MIAP program
-          - National Finalist (Top 10 among 1600+ entries) in Prabandhan-MBA
-          - Asia Finalist at La Trobe Technology Infusion Grand Challenge
-          - Ranked in top 10% of Y-Combinator 2020 cohort pitches
+        keywords: "Embodied AI, Robot Learning, Computer Vision, Perception, Generative Models, Healthcare AI, Autonomous Systems"
