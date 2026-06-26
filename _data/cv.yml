@@ -28,7 +28,6 @@ cv:
         start_date: 2025
         end_date: 2027 (Expected)
         highlights:
-          - Student Researcher, Johns Hopkins Medicine — deep learning for coronary-artery localization in cardiac MRI and MRI enhancement & segmentation
           - "J. N. Tata Scholar & K. C. Mahindra Scholar 2025 — among ~100 scholars selected worldwide each"
           - "Coursework: Computer Vision, Deep Learning, Algorithms for Sensor-Based Robotics, Generative Models for Vision"
 
@@ -97,11 +96,10 @@ cv:
         location: Singapore
         start_date: 2022-09
         end_date: 2023-02
-        summary: Perception researcher in the computer-vision division, focusing on explainability of visual perception for an autonomous-driving suite.
+        summary: Computer-vision perception and explainability for an autonomous-driving suite.
         highlights:
-          - Reconstructed a 3D sparse point cloud from 2D features, localized on monocular visual odometry derived from lane detection
-          - Engineered a novel fallback system using classical optical flow for rapid vehicle-turn estimation at 240 FPS on CPU
-          - Devised a fallback object-detection pipeline exploiting RAFT's dense optical flow, leveraging velocity disparities across object flows
+          - Estimated a 3D sparse point cloud by triangulating 2D lane features through monocular visual odometry
+          - Engineered a CPU-only Lucas–Kanade optical-flow fallback for turn-rate estimation, running at 240 FPS
 
       - company: ITC Limited
         position: Management Trainee (Flagship Programme)
@@ -129,21 +127,22 @@ cv:
         position: Student Researcher
         location: Baltimore, MD
         start_date: 2025-08
-        summary: "Deep learning for cardiac-MRI analysis (Advisor: Dr. Mike Schär)"
+        summary: "Deep learning for coronary-centerline localization in Philips scout cardiac MRI (Advisor: Dr. Mike Schär)"
         highlights:
-          - Developing deep models to localize coronary arteries in cardiac MRI, replacing slow, operator-dependent manual scan planning
-          - Building the data-curation and preprocessing pipeline and evaluating localization accuracy against expert annotations across patients
+          - Building an automated coronary-artery localization pipeline from Philips cardiac MRI and expert point annotations
+          - Developed a 2.5D ResNet50+FPN model with 5-slice context for per-slice coronary centerpoint detection
+          - Built a full scanner-side cardiac-MRI app for dataset ingestion, coronary label review, and automated scan processing
 
       - company: IGCL, IIT Kanpur
         position: Sr. Student Researcher (M.Tech Thesis)
         location: Kanpur, India
         start_date: 2021-06
         end_date: 2022-08
-        summary: "Object Detection Underneath Sparse Occlusion of Forests — enhancing human detection in forests with autonomous aerial vehicles (Advisor: Dr. Mangal Kothari)"
+        summary: "M.Tech Thesis: Through-canopy object detection using RGB–thermal fusion (Advisor: Dr. Mangal Kothari)"
         highlights:
-          - Developed a sensor-fusion model integrating RGB and thermal modalities into integral images that reveal concealed targets
-          - Applied Airborne Optical Sectioning (AOS) in a synthetic-aperture imaging framework, achieving ~70% occlusion removal in simulation
-          - Fine-tuned YOLOv5 via transfer learning on the fused imagery, raising detection accuracy by 32% over the base model
+          - Developed a through-canopy perception pipeline combining RGB–thermal fusion with LiDAR feasibility tests and swarm-system design
+          - Used Airborne Optical Sectioning synthetic-aperture imaging to suppress canopy clutter and recover occluded targets
+          - Fine-tuned YOLOv5 on the fused thermal imagery, removing ~70% occlusion and improving detection accuracy by 32%
 
       - company: IGCL, IIT Kanpur
         position: Undergraduate Researcher
@@ -160,21 +159,10 @@ cv:
         location: Hyderabad, India
         start_date: 2019-05
         end_date: 2019-07
-        summary: "Motion Planning for Outdoor Autonomous UAVs (Advisor: Prof. K. Madhava Krishna)"
+        summary: "Outdoor Visual-Inertial State Estimation and Motion Planning (Advisor: Prof. K. Madhava Krishna)"
         highlights:
-          - Implemented VINS-Mono on ROS, fusing a hardware-synced monocular camera, IMU, and GPS-RTK telemetry for robust state estimation
-          - Built a voxel-based 3D mapper from RealSense point clouds, enabling real-time path planning via mav_voxblox_planning
-
-      - company: Team VISiON, IIT Kanpur
-        position: Lead AI Researcher
-        location: Kanpur, India
-        start_date: 2018-08
-        end_date: 2020-05
-        summary: "Autonomous Ground Vehicle: Daksh II — outdoor navigation with obstacle avoidance (Advisor: Dr. Mangal Kothari)"
-        highlights:
-          - Implemented low-latency Fast-SCNN semantic segmentation (MobileNet depth-wise separable convolutions) for lane detection
-          - Built a global_mapper ROS publisher fusing LiDAR + camera into an occupancy map, with costmap_2d + RRT for cubic-spline path planning
-          - Won 4 international accolades at IGVC 2019; work published at IEEE ICARSC 2022
+          - Integrated VINS-Mono in ROS with a hardware-synced camera, IMU, and GPS-RTK for drift-robust UAV odometry
+          - Built a RealSense-depth voxel mapper and connected it to mav_voxblox_planning for real-time 3D path planning
 
     Projects:
       - name: PAVE — Probing Affordance in Vision-Language-Action Encoders
@@ -198,6 +186,14 @@ cv:
         highlights:
           - Designed a lightweight U-Net trained end-to-end on raw sensor data for low-light / multi-exposure enhancement
           - Reached 18.44 dB PSNR / 0.782 SSIM — +6.95 dB over Zero-DCE++ — at a fraction of the parameters
+
+      - name: Daksh II — Autonomous Ground Vehicle
+        summary: Team VISiON, IIT Kanpur — outdoor self-driving research platform for IGVC autonomy challenges
+        start_date: 2018
+        highlights:
+          - Built an end-to-end ROS autonomy stack for outdoor grassy-terrain navigation with lane keeping and obstacle avoidance
+          - Implemented Fast-SCNN semantic segmentation with MobileNet-style blocks for low-latency lane perception
+          - Developed LiDAR–camera occupancy mapping and integrated costmap + RRT planning for autonomous navigation; led the team to 4 international awards at IGVC 2019
 
       - name: COVID Information Retrieval
         summary: "Benchmarking IR frameworks for ranking CORD-19 research documents (Mentor: Prof. Arnab Bhattacharya, IIT Kanpur)"
@@ -334,30 +330,30 @@ cv:
         summary: "Seventh Indian Control Conference (ICC-7), 2021"
 
     Skills:
-      - name: Machine Learning / Deep Learning
-        level: Expert
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, PyTorch Lightning + Hydra, MONAI, Hugging Face, LangChain, Scikit-learn, OpenCV, NumPy"
-
-      - name: Robotics & Perception
-        level: Expert
-        icon: fa-solid fa-robot
-        keywords: "ROS + Gazebo, SLAM, Sensor Fusion, Visual Odometry, Object Detection, Semantic Segmentation, 3D Vision, YOLO"
-
-      - name: AI Methods & Domains
-        level: Expert
-        icon: fa-solid fa-diagram-project
-        keywords: "Vision-Language-Action (VLA) Models, Vision Transformers, Diffusion Models, LLMs, Medical Imaging, Autonomous Systems"
-
       - name: Programming
         level: Expert
         icon: fa-solid fa-code
-        keywords: "Python, C/C++, CUDA, MATLAB, SQL, Bash, R, Git"
+        keywords: "Python, C/C++, MATLAB, SQL, Bash"
 
-      - name: Cloud & MLOps
+      - name: Machine Learning
+        level: Expert
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, PyTorch Lightning, Hydra, MONAI, Hugging Face, Scikit-learn, NumPy, LLMs, Diffusion Models, Vision-Language-Action (VLA) Models"
+
+      - name: Computer Vision
+        level: Expert
+        icon: fa-solid fa-eye
+        keywords: "OpenCV, 2D/3D Vision, Segmentation, Object Detection, Image Restoration, Medical Imaging, Vision Transformers"
+
+      - name: Robotics
+        level: Expert
+        icon: fa-solid fa-robot
+        keywords: "ROS / ROS2, Gazebo, MoveIt, SLAM, Visual Odometry, Sensor Fusion, Occupancy Mapping, Motion Planning"
+
+      - name: Tools
         level: Advanced
-        icon: fa-solid fa-cloud
-        keywords: "AWS, Docker, Databricks, Grafana, CloudWatch, MLflow, Hydra"
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Claude Code, Cursor, Docker, Git, CMake, colcon, Databricks, Grafana, CloudWatch, LaTeX"
 
     Languages:
       - name: English
