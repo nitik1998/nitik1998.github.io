@@ -1302,6 +1302,10 @@ html[data-theme="dark"] .xp-tag.int {
   text-align: center;
   opacity: 0.72;
   transition: opacity 0.25s ease;
+  /* safety cap: keep the widget from blowing up the footer */
+  max-width: 320px;
+  max-height: 230px;
+  overflow: hidden;
 }
 .visitor-globe:hover {
   opacity: 1;
