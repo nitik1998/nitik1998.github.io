@@ -13,14 +13,11 @@
   {% endif %}
 {% endcapture %}
 
-{% comment %} Visitor map (ClustrMaps) — shows where visitors came from. Set clustrmaps_id in _config.yml. {% endcomment %}
+{% comment %} Visitor globe (MapMyVisitors) — subtle, footer-only; shows where views come from. {% endcomment %}
 {% capture visitor_map %}
-  {% if site.clustrmaps_id and site.clustrmaps_id != "" %}
-    <div class="visitor-map text-center mt-2 mb-2">
-      <p class="mb-1" style="font-size: 0.7rem; opacity: 0.7;">Visitors</p>
-      <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=240&t=tt&d={{ site.clustrmaps_id }}&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=808080"></script>
-    </div>
-  {% endif %}
+  <div class="visitor-globe" aria-hidden="true" title="where visitors are viewing from">
+    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=TZElgG1zwa0JR-KlaZGPgGL1gmpsPTclvL8z39D_5tA"></script>
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}

@@ -1295,3 +1295,21 @@ html[data-theme="dark"] .xp-tag.int {
   color: var(--global-theme-color);
   font-weight: 600;
 }
+
+/* ---- Visitor globe (MapMyVisitors) — subtle, footer-only ---- */
+.visitor-globe {
+  margin: 1.6rem auto 0.4rem;
+  text-align: center;
+  opacity: 0.45;
+  transform: scale(0.82);
+  transform-origin: center;
+  transition: opacity 0.25s ease;
+}
+.visitor-globe:hover {
+  opacity: 0.95;
+}
+.visitor-globe img,
+.visitor-globe canvas {
+  display: inline-block;
+  max-width: 100%;
+}
