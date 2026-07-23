@@ -974,9 +974,11 @@ html[data-theme="dark"] .xp-tag.int {
   #navbar {
     display: none !important;
   }
-  /* Keep page content clear of the fixed bottom bar */
+  /* Keep page content clear of the fixed bottom bar.
+     Plain fallback first (some engines drop env() inside calc, leaving 0). */
   body {
-    padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: 84px !important;
+    padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)) !important;
   }
 
   .mobile-tabbar {
@@ -1303,7 +1305,7 @@ html[data-theme="dark"] .xp-tag.int {
   opacity: 0.72;
   transition: opacity 0.25s ease;
   /* small flat map, tucked in the footer */
-  max-width: 250px;
+  max-width: 190px;
 }
 .visitor-globe:hover {
   opacity: 1;
@@ -1324,10 +1326,10 @@ html[data-theme="dark"] .xp-tag.int {
 /* Contact CTA — separated, centered closing line on the homepage */
 .contact-cta {
   text-align: center;
-  margin: 0.6rem auto 0.4rem;
+  margin: 0.4rem auto;
   p {
-    margin: 0.35rem 0 0;
-    font-size: 0.95rem;
-    opacity: 0.85;
+    margin: 0;
+    font-size: 0.88rem;
+    opacity: 0.75;
   }
 }
