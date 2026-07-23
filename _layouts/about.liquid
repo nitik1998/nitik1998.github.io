@@ -100,9 +100,11 @@ layout: default
     {% endif %}
 
     <!-- Contact note -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-note">{{ site.contact_note }}</div>
+    {% if page.social and site.contact_note and site.contact_note != "" %}
+      <hr class="section-sep" />
+      <div class="contact-cta">
+        <span class="terminal-h" style="font-size: 1rem;">$ ./say_hi.sh</span>
+        <p>{{ site.contact_note }} <a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a></p>
       </div>
     {% endif %}
 

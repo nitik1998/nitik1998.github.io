@@ -15,7 +15,8 @@
 
 {% comment %} Visitor globe (MapMyVisitors) — subtle, footer-only; shows where views come from. {% endcomment %}
 {% capture visitor_map %}
-  <div class="visitor-globe" aria-hidden="true" title="where visitors are viewing from">
+  <div class="visitor-globe" title="where visitors are viewing from">
+    <p class="vg-label">where you're all visiting from</p>
     <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=TZElgG1zwa0JR-KlaZGPgGL1gmpsPTclvL8z39D_5tA"></script>
   </div>
 {% endcapture %}

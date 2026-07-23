@@ -1298,18 +1298,34 @@ html[data-theme="dark"] .xp-tag.int {
 
 /* ---- Visitor globe (MapMyVisitors) — subtle, footer-only ---- */
 .visitor-globe {
-  margin: 1.6rem auto 0.4rem;
+  margin: 1.4rem auto 0.4rem;
   text-align: center;
-  opacity: 0.45;
-  transform: scale(0.82);
-  transform-origin: center;
+  opacity: 0.72;
   transition: opacity 0.25s ease;
 }
 .visitor-globe:hover {
-  opacity: 0.95;
+  opacity: 1;
+}
+.visitor-globe .vg-label {
+  font-family: "SFMono-Regular", "Menlo", "Consolas", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  opacity: 0.6;
+  margin: 0 0 0.35rem;
 }
 .visitor-globe img,
 .visitor-globe canvas {
   display: inline-block;
   max-width: 100%;
+}
+
+/* Contact CTA — separated, centered closing line on the homepage */
+.contact-cta {
+  text-align: center;
+  margin: 0.6rem auto 0.4rem;
+  p {
+    margin: 0.35rem 0 0;
+    font-size: 0.95rem;
+    opacity: 0.85;
+  }
 }
